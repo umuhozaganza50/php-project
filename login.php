@@ -24,7 +24,7 @@
            <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" name="em"> </div>
+                        <input class="form-control" type="text" placeholder="E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" name="em" requiredgit > </div>
                 </div>
             </div>
             

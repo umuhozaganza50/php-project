@@ -35,25 +35,25 @@ session_start();
             <div class="d-flex flex-row"> 
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <div class="input-group"> <input class="form-control" type="text" placeholder="First name" name="fn"> </div>
+                        <div class="input-group"> <input class="form-control" type="text" placeholder="First name" name="fn" required> </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <div class="input-group"> <input class="form-control" type="text" placeholder="Last name" name="ln"> </div>
+                        <div class="input-group"> <input class="form-control" type="text" placeholder="Last name" name="ln" required> </div>
                     </div>
                 </div>
             </div>
            <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="E-mail" name="em"> </div>
+                        <input class="form-control" type="text" placeholder="E-mail" name="em" required> </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <div class="input-group"> <input class="form-control" type="text" placeholder="Choose password" name="pw"> </div>
+                        <div class="input-group"> <input class="form-control" type="text" placeholder="Choose password" name="pw" required> </div>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ session_start();
            <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <input class="form-control" type="password" placeholder="password" name="pw"> </div>
+                        <input class="form-control" type="password" placeholder="password" name="pw" required> </div>
                 </div>
             </div>
             <div class=" d-flex flex-column text-center px-2 mt-3 mb-1"> <button class="btn btn-primary rounded-pill btn-block confirm-button">Sign In</button></div> 
