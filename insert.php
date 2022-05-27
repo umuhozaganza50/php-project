@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'db.php';
 if($_POST>0){
     $fn = $_POST['fn'];
@@ -6,16 +7,16 @@ if($_POST>0){
     $em = $_POST['em'];
     $pw = $_POST['pw'];
 
-    $sql = "INSERT INTO `users`(`id`, `fn`, `ln`, `em`, `pw`, `tm`) VALUES ('$fn','$ln','$em','$pw')";
+    $sql = "INSERT INTO `users`(`fn`, `ln`, `em`, `pw`) VALUES ('$fn','$ln','$em','$pw')";
 
     $result = mysqli_query($con, $sql);
     if($result){
         $_SESSION['success']= 'Account created successfully!!';
-        header('Location: created.php');
+        header('Location: create.php');
     }
     else{
         $_SESSION['fail']= 'Failed to create account!!';
-        header('Location: created.php');
+        header('Location: create.php');
 
     }
 

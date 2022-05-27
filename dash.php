@@ -25,7 +25,8 @@
            
                 <h6><center>Headline</center></h6>
             </div>
-            <span>Lorem ipsum dolor sit amet</span>
+            <span>Lorem ipsum dolor sit amet </span>
+            <span><a href="logout.php">Logout</a></span>
         </div>
         <div class="row ">
         <a href="" class="btn border-danger border-top-0 border-right-0 border-left-0 bg-primary col-sm-12 mt-1" style="color:white; font-size:20px ;text-align:left; ">Change pasword</a>
